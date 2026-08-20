@@ -8,4 +8,12 @@ scripts/text/
 scripts/chroma/
 scripts/pdf/
 
+# Personal research papers (stay in Obsidian, not in the repo).
+# The Initiation Layer Design IS a tool and stays tracked.
+docs/Cipher_Exploration_Additional_Qiyas_Naskh.md
+docs/Permission_Node_Database.md
+docs/The_Cipher_Keys_Qiyas_and_Naskh.md
+docs/The_Eight_Moral_Questions.md
+docs/The_Juridical_Cipher.md
+
 .env
