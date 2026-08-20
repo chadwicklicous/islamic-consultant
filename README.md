@@ -110,23 +110,7 @@ initiated are taught (*usul al-fiqh*): which verse abrogates which (naskh), the
 occasion of revelation (asbab al-nuzul), the ratio that lets a ruling extend by
 analogy ('illa / qiyas), and where classical vs. modern tafsir diverge. It avoids
 **both** failure modes: naive literalism (treating every verse as a time-flat
-command) and ideological projection (reading modern values in). The design rationale
-is in `docs/The_Initiation_Layer_Design.md`.
-
-## Research notes (in `docs/`)
-
-The consultant was built in support of a comparative-theology research project.
-The analytical notes that emerged are included:
-
-- **The Juridical Cipher** — understanding Islam through its jurisprudential
-  methodology: a network of conditional permissions (IF [condition] THEN [state change]).
-- **The Cipher Keys: Qiyas and Naskh** — the two master keys that decode and reorder the network.
-- **Cipher Exploration — Additional Qiyas and Naskh** — 5 stepped-revelation (naskh) chains,
-  qiyas extensions, and the modern tafsir's narrowing of classical readings.
-- **The Eight Moral Questions** — divorce, alcohol, lying, wealth, retribution,
-  sexuality, usury, and war worked through the cipher.
-- **The Permission Node Database** — a catalog of the conditional legal nodes, with the 'illa register.
-- **The Initiation Layer Design** — the design for the scholar-facing toggle.
+command) and ideological projection (reading modern values in).
 
 ## Citation format
 
