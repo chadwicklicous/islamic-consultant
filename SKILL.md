@@ -23,7 +23,7 @@ Answer questions about the Quran and the Hadith **from the original Arabic**, wi
 
 ## The Corpus (already built)
 
-- **Text corpus:** `C:\Users\philo\islamic-consultant\scripts\text\` — 4 TSV files, 101,865 entries, each `CITATION\tTEXT`
+- **Text corpus:** `C:\Users\philo\islamic-consultant\scripts\text\` — 7 TSV files, 113,776 entries, each `CITATION\tTEXT`
 - **Vector index:** `C:\Users\philo\islamic-consultant\scripts\chroma\` — ChromaDB collection `islamic_corpus`, bge-m3 (1024-dim, multilingual)
 - **Obsidian index:** `What Animates Man/Islamic Corpus/Index.md`
 
@@ -36,6 +36,7 @@ The corpus covers:
 - **Sufi (mystical)** (1,831 entries) — Ghazali's *Ihya Ulum al-Din* ("Revival of the Religious Sciences"), the foundational Sufi text, in Arabic.
 - **Sira (biography)** (2,491 entries) — Ibn Hisham's *Sira Nabawiyya* (Mustafa al-Saqqa edition), the foundational biography of the Prophet.
 - **Tabaqat (biographical dictionary)** (8,550 entries) — Ibn Sa'd's *al-Tabaqat al-Kubra* (al-Khanji ed.), the earliest surviving biographical dictionary of the Prophet and his companions.
+- **Akhbar Makka (history of Mecca)** (870 entries) — al-Azraqi's *Akhbar Makka wa-ma ja'a fiha min al-athar* (Malhas ed.), an early topographical history of Mecca (historical layer).
 
 Each entry carries authority + layer metadata in its citation, e.g.
 `Quran 4:3 | Ibn Kathir | classical-sunni` or `Ihya Ulum al-Din | كتاب العلم | sufi`.
