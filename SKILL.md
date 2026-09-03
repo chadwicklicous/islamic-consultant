@@ -129,6 +129,13 @@ grep -F "Quran 2:255" /c/Users/philo/islamic-consultant/scripts/text/quran.tsv
 
 ### Epistemic standards (READ BEFORE ANSWERING)
 
+> **About these standards.** The rules below — the epistemic standards, the
+> logical research methods, and the Thomistic epistemological standards — are a
+> **suggested supplementary tool for research**, not a binding constraint. They
+> live in this consultant's `SKILL.md`, published in its GitHub repo. You may
+> **turn them off, add to them, or change them** at any time; they are your own
+> working notes, and the consultant follows whatever version you keep.
+
 Religious-studies material is full of difficulty-to-source tradition: rumors,
 black myths, outright fabrications, polemical distortions, and revisionist
 counter-claims. The user explicitly wants accuracy and awareness of limits over
