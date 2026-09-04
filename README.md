@@ -3,9 +3,15 @@
 A citation-grounded consultant for the **Quran and the Hadith from the original
 Arabic**. Builds a semantic-search index over the Quran (Uthmani script), 16 major
 Hadith collections, the classical/modern Sunni tafsir (interpretation) tradition,
-and Ghazali's *Ihya Ulum al-Din* — and answers questions **from the original Arabic
-with exact citations** (surah:ayah for the Quran, collection + number for hadiths),
+Ghazali's *Ihya Ulum al-Din*, and the Sira/biographical tradition (Ibn Hisham,
+Ibn Sa'd) — and answers questions **from the original Arabic with exact
+citations** (surah:ayah for the Quran, collection + number for hadiths),
 not from a translation or a model's recollection.
+
+It also carries a **canonical-grade vocabulary** so it distinguishes authoritative
+hadith (the canonical collections / sahih reports) from historical context
+reports (the Sira and Tabaqat, which narrate the Prophet's life but are not the
+basis for law).
 
 Includes the **Initiation Layer** — a scholar-facing toggle that shows how the
 tradition itself teaches the initiated to read the text, while keeping the raw
@@ -21,8 +27,12 @@ Arabic authoritative.
      classical (Ibn Kathir, al-Tabari, al-Qurtubi, al-Baghawi) and modern (al-Sa'di,
      al-Wasit/Tantawi, al-Muyassar)
    - **Sufi** (1,831 entries) — Ghazali's *Ihya Ulum al-Din*
+   - **Sira** (2,491 entries) — Ibn Hisham's *Sira Nabawiyya*
+   - **Tabaqat** (8,550 entries) — Ibn Sa'd's *al-Tabaqat al-Kubra* (historical, non-canonical)
 2. Builds a ChromaDB vector index (bge-m3, 1024-dim, multilingual) for semantic search.
-3. Answers questions by retrieving the relevant Arabic passages with exact citations.
+3. Answers questions by retrieving the relevant Arabic passages with exact citations —
+   tagging each as **canonical** (sahih) or **historical** (da'if / context) so the
+   reader knows which reports are authoritative for those who practice the faith.
 
 ## Two ways to use it
 
